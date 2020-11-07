@@ -1,0 +1,20 @@
+{
+  "name": "italian-municipalities",
+  "version": "0.0.1",
+  "description": "API for Italian municipalities",
+  "main": "src/server/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development DEBUG=app* nodemon src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniele Lenares <daniele.lenares@gmail.com>",
+  "license": "GPLv3",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.6"
+  }
+}
